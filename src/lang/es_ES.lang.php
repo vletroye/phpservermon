@@ -25,7 +25,7 @@
  * @author      Federico Vera <fede@riddler.com.ar>
  * @copyright   Copyright (c) 2008-2017 Pepijn Over <pep@mailbox.org>
  * @license     http://www.gnu.org/licenses/gpl.txt GNU GPL v3
- * @version     Release: @package_version@
+ * @version     Release: v3.5.0
  * @link        http://www.phpservermonitor.org/
  **/
 

@@ -22,7 +22,7 @@
  * @author      Pepijn Over <pep@mailbox.org>
  * @copyright   Copyright (c) 2008-2017 Pepijn Over <pep@mailbox.org>
  * @license     http://www.gnu.org/licenses/gpl.txt GNU GPL v3
- * @version     Release: @package_version@
+ * @version     Release: v3.5.0
  * @link        http://www.phpservermonitor.org/
  **/
 
@@ -809,8 +809,10 @@ namespace {
             $url .= dirname($_SERVER['SCRIPT_NAME']);
             $url = str_replace('\\', '', $url);
         }
-        $url = rtrim($url, '/') . '/';
-
+        //ServerMonitor needs to open index.php to work on Synology
+		//$url = rtrim($url, '/') . '/';
+		$url = rtrim($url, '/').'/index.php';	
+		
         if ($params != null) {
             $url .= '?';
             if (is_array($params)) {

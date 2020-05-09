@@ -24,7 +24,7 @@
  * @author      Ward Pieters <ward@wardpieters.nl>
  * @copyright   Copyright (c) 2016 Alexis Urien <alexis.urien@free.fr>
  * @license     http://www.gnu.org/licenses/gpl.txt GNU GPL v3
- * @version     Release: @package_version@
+ * @version     Release: v3.5.0
  * @link        http://www.phpservermonitor.org/
  * @since       phpservermon 2.1
  **/
